@@ -20,6 +20,7 @@ def image_coordinates(image_path):
             print ('No Coordinates')
     else:
         print ('The Image has no EXIF information')
+        return None
     return coords
 
 print(image_coordinates("img.jpg"))
